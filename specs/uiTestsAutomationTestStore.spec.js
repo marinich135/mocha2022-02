@@ -3,11 +3,8 @@ import chai from "chai";
 import {run,stop} from "../lib/browsers.js";
 const assert = chai.assert;
 
-
 describe ("UI тесты для магазина", () => {
     let page;
-
-
     beforeEach( async () => {
         page = await run('https://automationteststore.com/index.php?rt=account/login');
     });
