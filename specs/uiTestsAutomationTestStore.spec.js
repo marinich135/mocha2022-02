@@ -1,4 +1,4 @@
-import chai from "chai";
+/*import chai from "chai";
 //import playwright from "playwright";
 import {run,stop} from "../lib/browsers.js";
 const assert = chai.assert;
@@ -84,4 +84,4 @@ describe ("UI тесты для магазина", () => {
         assert.strictEqual(currencyText, '€ Euro', 'Валюта покупок не изменилась');
     });
 
-});
+});*/
